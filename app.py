@@ -38,6 +38,6 @@ def upload():
 
 	return redirect(url_for('files'))
 	#return "Upload realizado com sucesso."
-
+	
 if __name__ == '__main__':
 	app.run()
